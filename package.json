@@ -1,0 +1,20 @@
+{
+  "name": "local-ssl-proxy",
+  "version": "1.0.0",
+  "description": "A simple tool for developers that sets up a local HTTPS proxy to a specified domain.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name 3ejlehckuu@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "https": "^1.0.0",
+    "readline": "^1.3.0",
+    "fs": "^0.0.1-security"
+  },
+  "bin": {
+    "local-ssl-proxy": "./app.js"
+  }
+}
