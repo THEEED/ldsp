@@ -1,6 +1,6 @@
-# Contributing to local-ssl-proxy
+# Contributing to ldsp
 
-Thank you for your interest in contributing to local-ssl-proxy! Here are the guidelines on how to contribute.
+Thank you for your interest in contributing to ldsp! Here are the guidelines on how to contribute.
 
 ## Reporting Issues
 

@@ -2,11 +2,6 @@
 node_modules
 npm-debug.log
 
-# OpenSSL artifacts
-server.cert
-server.crt
-server.key
-
 # Operating system artifacts
 .DS_Store
 Thumbs.db

@@ -1,20 +1,21 @@
 {
-  "name": "local-ssl-proxy",
+  "name": "ldsp",
   "version": "1.0.0",
   "description": "A simple tool for developers that sets up a local HTTPS proxy to a specified domain.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "Your Name 3ejlehckuu@gmail.com",
+  "author": "3ejlehckuu@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "http-proxy": "^1.18.1",
     "https": "^1.0.0",
-    "readline": "^1.3.0",
-    "fs": "^0.0.1-security"
+    "pem": "^1.14.8",
+    "readline": "^1.3.0"
   },
   "bin": {
-    "local-ssl-proxy": "./app.js"
+    "ldsp": "./index.js"
   }
 }
